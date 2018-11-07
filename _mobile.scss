@@ -1,0 +1,28 @@
+@media (max-width: 576px){
+    .top{
+        height: auto;
+        .top-language{
+            text-align: center;
+            .languages{
+                position: static;
+                width: 100%;
+                border: none;
+                a{
+                    border: none;
+                }
+            }
+        }
+    }   //top
+    .menu-logo{
+        ul.navbar-nav{
+            text-align: center;
+            li.nav-item{
+                padding: 5px;
+            }            
+        }
+    }   //menu-logo
+    
+    .title{
+        text-align: center;
+    }   //title
+}
